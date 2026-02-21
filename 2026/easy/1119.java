@@ -1,4 +1,6 @@
-class Solution {
+import java.util.Set;
+
+class Vowels {
     public String removeVowels(String s) {
         Set<Character> vowels = Set.of('a', 'e', 'i', 'o' ,'u');
         StringBuilder result = new StringBuilder();

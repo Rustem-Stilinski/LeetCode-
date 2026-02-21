@@ -1,4 +1,4 @@
-class Solution {
+class BinarySubstring {
     public int countBinarySubstrings(String s) {
         int prevCount = 0;
         int currentCount = 1;

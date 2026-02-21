@@ -1,7 +1,11 @@
-class Solution {
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+class MaxFreq {
     public int maxFreqSum(String s) {
         Map<Character, Integer> vowelCharToFreqMap = new HashMap<>();
-        Map<Character, Integer> consonantCharToFreqMap = new HashMap<>();  
+        Map<Character, Integer> consonantCharToFreqMap = new HashMap<>();
         Set<Character> vowels = Set.of('a', 'e', 'i', 'o', 'u');
         int maxVowels = 0;  
         int consonantMax = 0;  

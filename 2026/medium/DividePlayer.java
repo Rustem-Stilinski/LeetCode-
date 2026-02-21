@@ -1,4 +1,6 @@
-class Solution {
+import java.util.Arrays;
+
+class DividePlayer {
     public long dividePlayers(int[] skill) {
         Arrays.sort(skill);
         long result = 0;

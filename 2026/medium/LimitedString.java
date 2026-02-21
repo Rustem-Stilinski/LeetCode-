@@ -1,4 +1,4 @@
-class Solution {
+class LimitedString {
     public String repeatLimitedString(String s, int repeatLimit) {
         int[] freq = new int[26];
         for (char c : s.toCharArray()) {

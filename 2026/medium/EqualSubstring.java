@@ -1,4 +1,4 @@
-class Solution {
+class EqualSubstring {
     public int equalSubstring(String s, String t, int maxCost) {
         int result = 0;
         int left = 0;

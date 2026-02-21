@@ -1,4 +1,7 @@
-class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+class SummaryRanges {
     public List<String> summaryRanges(int[] nums) {
         List<String> result  = new ArrayList<>();
 

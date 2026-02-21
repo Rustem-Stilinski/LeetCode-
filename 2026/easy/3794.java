@@ -1,4 +1,4 @@
-class Solution {
+class ReversePrefix {
     public String reversePrefix(String s, int k) {
         StringBuilder str = new StringBuilder();
         for(int i = k-1 ; i>=0;i--){
