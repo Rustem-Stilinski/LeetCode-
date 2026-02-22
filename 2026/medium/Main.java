@@ -9,5 +9,13 @@ public class Main {
 
         ReverseString reverseString = new ReverseString();
         System.out.println(reverseString.reverseDegree("abxsx"));
+
+        ValidPalindrome validPalindrome = new ValidPalindrome();
+        String word = "hello";
+        System.out.println("Is " + word + "palindrome:" + validPalindrome.isPalindrome(word));
+
+        ExcelSheetColumnTitle excelSheetColumnTitle = new ExcelSheetColumnTitle();
+        System.out.println("Excel sheet title:" + excelSheetColumnTitle.convertToTitle(100));
+
     }
 }
