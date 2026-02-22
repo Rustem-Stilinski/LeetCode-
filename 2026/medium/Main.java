@@ -17,5 +17,8 @@ public class Main {
         ExcelSheetColumnTitle excelSheetColumnTitle = new ExcelSheetColumnTitle();
         System.out.println("Excel sheet title:" + excelSheetColumnTitle.convertToTitle(100));
 
+        TitleToNumber titleToNumber = new TitleToNumber();
+        System.out.println("Excel sheet title:" + titleToNumber.titleToNumber("XY"));
+
     }
 }
